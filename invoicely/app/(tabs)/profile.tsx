@@ -82,8 +82,8 @@ export default function ProfileScreen() {
             <Text style={{ color: GlobalColors.grayDark }}>{user.address} </Text>
           </View>
           <Icon
-            raised
             borderRadius={50}
+            style={{ marginTop: 10 }}
             name='logout'
             type='material'
             color={GlobalColors.secondary}

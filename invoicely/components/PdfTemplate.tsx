@@ -137,7 +137,9 @@ const PdfCode = (invoice: Invoice) => {
                 <tbody>
                   ${invoice.items.map((item: any) => {
                     console.log(item);
-                    item = JSON.parse(item);
+                    if (!item.description) {
+                      item = JSON.parse(item);
+                    }
                     return ` <tr>
                         <td>${item.description}</td>
                           ${invoice.invoiceType.includes('company') ? `<td>${item.hours}</td>` : ''}
