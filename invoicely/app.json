@@ -19,7 +19,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/logo-icon-transparent.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.nihalsharma007.invoicely"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +32,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "963ea166-7482-47cd-97df-d51aebb79d0e"
+      }
     }
   }
 }

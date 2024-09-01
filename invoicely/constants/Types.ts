@@ -38,6 +38,8 @@ type Invoice = {
   invoiceType: string;
   invoiceName: string;
   fromAddress: string;
+  fromPhone: string;
+  toPhone: string;
   toName: string;
   toAddress: string;
   date: string;

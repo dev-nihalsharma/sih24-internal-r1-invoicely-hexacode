@@ -3,7 +3,7 @@ import { storage } from './localStorage';
 import axios from 'axios';
 import { ToastAndroid } from 'react-native';
 
-const api_endpoint = 'http://10.0.2.2:3000';
+const api_endpoint = 'http://206.189.143.108:3000';
 
 export const getRequest = async (url: string) => {
   const token = await storage.retrieveData('token');
