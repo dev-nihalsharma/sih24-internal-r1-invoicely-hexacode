@@ -1,12 +1,12 @@
 # Porting an Invoice and Billing Platform for Government Universities from Ionic to React Native
 
-<img src="https://sdrive.blr1.cdn.digitaloceanspaces.com/files/e9ea3dadcdc13adf23ff7751e9701929.jpg" width="full" />
+<img src="https://raw.githubusercontent.com/dev-nihalsharma/sih24-r1-invoicely/main/invoicely/assets/images/tech-stack.png" width="full" />
 
 This README provides an overview of the project, including team details, relevant links, tasks completed, tech stack, key features, and steps to run the project locally.
 
 ## Team Details
 
-**Team Name:** HEXA-CODE
+**Team Name:** HEXA CODE
 
 **Team Leader:** [@tanyaguptaaaa29](https://github.com/tanyaguptaaaa29)
 
@@ -21,10 +21,12 @@ This README provides an overview of the project, including team details, relevan
 
 ## Project Links
 
-- **Internal Presentation:** [Internal Presentation](/files/Internal_PPT_HEXA-CODE.pdf)
-- **Final SIH Presentation:** [Final SIH Presentation](/files/SIH_PPT_HEXA-CODE.pdf)
-- **Video Demonstration:** [Watch Video](https://youtu.be/pIS_WHIDuQg)
-- **Source Code:** [GitHub Repository](https://github.com/dev-nihalsharma/sih24-r1-invoicely)
+- **Internal Presentation:** [Internal Presentation](URL TO PPT UPLOADED TO GITHUB)
+- **Final SIH Presentation:** [Final SIH Presentation](URL TO PPT UPLOADED TO GITHUB)
+- **Video Demonstration:** [Watch Video](UNLISTED YOUTUBE LINK)
+- **Live Deployment:** [View Deployment](DEPLOYED LINK IF ANY)
+- **Source Code:** [GitHub Repository](GITHUB LINK TO THE REPO)
+- **Additional Resources:** [Other Relevant Links](ANY OTHER RELEVANT LINKS)
 
 ## Tasks Accomplished
 
@@ -69,7 +71,6 @@ MySQL is a powerful, open-source relational database management system that offe
 
 **Use Case:**  
 MySQL is used to store and manage relational data for the application, ensuring data integrity and efficient querying.
-
 ## [JWT (JSON Web Token)](https://jwt.io/)
 
 **Why JWT?**  
@@ -86,6 +87,8 @@ Sequelize is a promise-based Node.js ORM (Object-Relational Mapper) that support
 **Use Case:**  
 Sequelize is used for managing database operations in the Node.js application, including defining models, running migrations, and executing queries in a more structured and efficient manner.
 
+
+
 ## Local Setup Instructions
 
 This repository contains a Node.js server and a React Native app built with Expo.
@@ -100,46 +103,48 @@ This repository contains a Node.js server and a React Native app built with Expo
 
 1. **Clone the Repository**
 
-   ```bash
-   git clone https://github.com/dev-nihalsharma/sih24-r1-invoicely.git
-   cd sih24-r1-invoicely
-   ```
+    ```bash
+    git clone https://github.com/dev-nihalsharma/sih24-r1-invoicely.git
+    cd sih24-r1-invoicely
+    ```
 
 2. **Set Up the Node.js Server**
 
-   - Navigate to the `server` directory:
+    - Navigate to the `server` directory:
 
-     ```bash
-     cd server
-     ```
+        ```bash
+        cd server
+        ```
 
-   - Install dependencies and start the server:
+    - Install dependencies and start the server:
 
-     ```bash
-     npm install
-     npm start
-     ```
+        ```bash
+        npm install
+        npm start
+        ```
 
-   The server runs on `http://localhost:3000`.
+    The server runs on `http://localhost:3000`.
 
 3. **Set Up the React Native App**
 
-   - Navigate to the `invoicely` directory:
+    - Navigate to the `invoicely` directory:
 
-     ```bash
-     cd ../invoicely
-     ```
+        ```bash
+        cd ../invoicely
+        ```
 
-   - Install dependencies and start the Expo app:
+    - Install dependencies and start the Expo app:
 
-     ```bash
-     npm install
-     npm start
-     ```
+        ```bash
+        npm install
+        npm start
+        ```
 
-   Open the app using Expo Go on your mobile device or an emulator.
+    Open the app using Expo Go on your mobile device or an emulator.
 
 ## Notes
 
 - Ensure both the server and app are running.
 - Your mobile device should be on the same network as your development machine.
+
+
